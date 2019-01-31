@@ -86,11 +86,11 @@ namespace GenerateEnrollExcel
                 {
                     newOrder.studentName = sheet1.GetRow(i).GetCell(0).StringCellValue;
                     newOrder.mobile = sheet1.GetRow(i).GetCell(1).StringCellValue;
-                    newOrder.className = sheet1.GetRow(i).GetCell(8).StringCellValue;
-                    newOrder.school = sheet1.GetRow(i).GetCell(7).StringCellValue;
-                    newOrder.grade = sheet1.GetRow(i).GetCell(10).StringCellValue;
-                    newOrder.subject = sheet1.GetRow(i).GetCell(6).StringCellValue;
-                    newOrder.courseTime = sheet1.GetRow(i).GetCell(9).StringCellValue;
+                    newOrder.className = sheet1.GetRow(i).GetCell(9).StringCellValue;
+                    newOrder.school = sheet1.GetRow(i).GetCell(8).StringCellValue;
+                    newOrder.grade = sheet1.GetRow(i).GetCell(11).StringCellValue;
+                    newOrder.subject = sheet1.GetRow(i).GetCell(7).StringCellValue;
+                    newOrder.courseTime = sheet1.GetRow(i).GetCell(10).StringCellValue;
                     newOrder.studentSchool = (sheet1.GetRow(i).GetCell(2)!=null?sheet1.GetRow(i).GetCell(2).StringCellValue:"");
                     newOrder.studentClass = (sheet1.GetRow(i).GetCell(3)!=null?sheet1.GetRow(i).GetCell(3).StringCellValue:"");
                 }
